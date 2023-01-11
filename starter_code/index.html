@@ -17,9 +17,9 @@
 </head>
 
 <body>
-  <nav>
+  <nav id="cabecalho">
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img id="slackImage" src="./images/slack-logo.png" alt="Slack logo" />
 
       <ul>
         <li>
@@ -58,53 +58,56 @@
   </nav>
 
   <header>
-    <div>
-      <h1>Great teamwork starts with a digital HQ</h1>
+    <div id="introducao">
+      <h1 style="color:white">Great teamwork <br> starts with a digitalb<br> HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p style="color: white">Slack is free to try for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div id="introducaoButtons">
+        <button style="color: #540B51" id="introducaoButtons1"><b>Sign up with email</b></button>
 
-        <button>
+        <button id="introducaoButtons2">
           <img src="./images/logo-google.png" alt="Google logo" />
-          <span>Sign up with Google</span>
+          <span style="color: white">Sign up with Google</span>
         </button>
       </div>
 
     </div>
 
     <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <img id="lastImgHeader" src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
-      <p>Trusted by companies all over the world</p>
+    <section id="primeiraSessao">
+      <p><b>Trusted by companies all over the world</b></p>
 
-      <div>
-        <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
-        <img src="./images/logo-nasa.png" alt="NASA logo" />
-        <img src="./images/logo-uber.png" alt="Uber logo" />
-        <img src="./images/logo-target.png" alt="Target logo" />
-        <img src="./images/logo-nyt.png" alt="New York Times logo" />
-        <img src="./images/logo-spotify.png" alt="Spotify logo" />
+      <div id="imgSessao1">
+        <img class="imgSessao1" src="./images/logo-airbnb.png" alt="Airbnb logo" />
+        <img class="imgSessao1" src="./images/logo-nasa.png" alt="NASA logo" />
+        <img class="imgSessao1" src="./images/logo-uber.png" alt="Uber logo" />
+        <img class="imgSessao1" src="./images/logo-target.png" alt="Target logo" />
+        <img class="imgSessao1" src="./images/logo-nyt.png" alt="New York Times logo" />
+        <img class="imgSessao1" src="./images/logo-spotify.png" alt="Spotify logo" />
       </div>
 
     </section>
 
-    <section>
+    <section id="segundaSessao">
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
 
-      <div>
-        <h2>Bring your team together</h2>
+      <div id="segundaSessao2div">
+        <h2><b>Bring your team together</b></h2>
 
         <p>
-          At the heart of Slack are channels: organized spaces for everyone and everything you need for work. In
-          channels, it's easier to connect across departments, offices, time zones and even other companies.
+          <b>
+            At the heart of Slack are channels: organized spaces for everyone and everything you need for work. In
+            channels, it's easier to connect across departments, offices, time zones and even other companies.
+          </b>
+
         </p>
 
         <a href="#">
@@ -113,13 +116,22 @@
       </div>
     </section>
 
-    <section>
+    <section id="terceiraSessao">
       <div>
+
+        <div>
+          <img src="./images/flexibility-mobile.png" alt="flexibility" />
+        </div>
+
         <h2>Choose how you want to work</h2>
         <p>
-          In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat,
-          send
-          audio and video clips, or hop on a huddle to talk things out live.
+          <b>
+            In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily
+            chat,
+            send
+            audio and video clips, or hop on a huddle to talk things out live.
+          </b>
+
         </p>
 
         <a href="#">
@@ -127,12 +139,10 @@
         </a>
       </div>
 
-      <div>
-        <img src="./images/flexibility-mobile.png" alt="flexibility" />
-      </div>
+
     </section>
 
-    <section>
+    <section id="quartaSessao">
       <div>
         <img src="./images/speed-mobile.png" alt="speed" />
       </div>
@@ -140,8 +150,10 @@
       <div>
         <h2>Move faster with your tools in one place</h2>
         <p>
-          With your other work apps connected to Slack, you can work faster by switching tabs less. And with powerful
-          tools like Workflow Builder, you can automate away routine tasks.
+          <b>
+            With your other work apps connected to Slack, you can work faster by switching tabs less. And with powerful
+            tools like Workflow Builder, you can automate away routine tasks.
+          </b>
         </p>
 
         <a href="#">
@@ -151,56 +163,66 @@
     </section>
 
 
-    <section>
+    <section id="quintaSessao">
       <h3>Teams large and small rely on Slack</h3>
-      <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
+      <p>
+        <b>
+          Slack securely scales up to support collaboration at the world’s biggest companies.
+        </b>
+      </p>
 
-      <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+      <div id="quintaSessaoButtons">
+        <button style="color:white" id="quintaSessaoButtons1">Meet Slack for enterprise</button>
+        <button style="color: #540B51" id="quintaSessaoButtons2">Talk to sales</button>
       </div>
 
       <ul>
-        <li>
-          <p><span>85%</span></p>
+        <li class="quintaSessaoUl">
+          <p style="color: #540B51"><span>85%</span></p>
           <p>
-            of users say Slack has improved communication
+            <b>
+              of users say Slack has improved communication
+            </b>
             <sup>*</sup>
           </p>
         </li>
 
-        <li>
-          <p><span>86%</span></p>
+        <li class="quintaSessaoUl">
+          <p style="color: #540B51"><span>86%</span></p>
           <p>
-            feel their ability to work remotely has improved has improved
+            <b>
+              feel their ability to work remotely has improved has improved
+            </b>
             <sup>*</sup>
           </p>
         </li>
 
-        <li>
-          <p><span>88%</span></p>
+        <li class="quintaSessaoUl">
+          <p style="color: #540B51"><span>88%</span></p>
           <p>
+            <b>
             feel more connected to their teams*
+          </b>
             <sup>*</sup>
           </p>
         </li>
       </ul>
     </section>
 
-    <section>
-      <h3>Welcome to your new digital HQ</h3>
+    <section id="sextaSessao">
+      <h3 style="color: white">Welcome to your new <br> digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button style="color: white" id="sextaSessaoBtn1">Try for free</button>
+      <button style="color: #540B51" id="sextaSessaoBtn2">Talk to sales</button>
     </section>
 
   </main>
 
   <footer>
     <img src="./images/iso-slack.png" alt="Slack logo" />
-    <div>
+    <div id="container">
       <ul>
-        <li>WHY SLACK?</li>
+        <li> <b>WHY SLACK?</b></li>
         <li>Slack vs. Email</li>
         <li>Channels</li>
         <li>Engagement</li>
@@ -209,7 +231,7 @@
       </ul>
 
       <ul>
-        <li>PRODUCT</li>
+        <li><b>PRODUCT</b></li>
         <li>Features</li>
         <li>Integrations</li>
         <li>Enterprise</li>
@@ -218,13 +240,13 @@
       </ul>
 
       <ul>
-        <li>PRICING</li>
+        <li><b>PRICING</b></li>
         <li>Plans</li>
         <li>Paid vs. Free</li>
       </ul>
 
       <ul>
-        <li>COMPANY</li>
+        <li><b>COMPANY</b></li>
         <li>About Us</li>
         <li>Leadership</li>
         <li>Investor Relations</li>
@@ -247,7 +269,7 @@
 
     <hr>
 
-    <ul>
+    <ul id="lastFooter">
       <li>
         <i class="fab fa-twitter"></i>
       </li>

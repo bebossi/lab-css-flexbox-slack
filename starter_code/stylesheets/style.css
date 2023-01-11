@@ -1,3 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho {
+    background-color: #540B51;
+    display: flex;
+}
+
+#introducao {
+    background-color: #540B51;
+    width: 100%;
+}
+
+#introducao h1 {
+    text-align: center;
+}
+
+#introducao p {
+    text-align: center;
+}
+
+#introducaoButtons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#lastImgHeader {
+    width: 100%;
+}
+
+#primeiraSessao {
+    background-color: #F3EAE2;
+}
+
+#primeiraSessao p {
+    text-transform: uppercase;
+}
+
+#segundaSessao {
+    background-color: #F3EAE2;
+}
+
+#segundaSessao img {
+    width: 100%;
+}
+
+#segundaSessao h2 {
+    text-align: center;
+}
+
+#segundaSessao p {
+    margin: 5px;
+    text-align: center;
+}
+
+#terceiraSessao {
+    background-color: #F3EAE2;
+}
+
+#terceiraSessao h2 {
+    text-align: center
+}
+
+#terceiraSessao p {
+    margin: 5px;
+    text-align: center;
+}
+
+#terceiraSessao img {
+    width: 100%;
+}
+
+#quartaSessao {
+    background-color: #F3EAE2;
+}
+
+#quartaSessao img {
+    width: 100%;
+}
+
+#quartaSessao h2 {
+    text-align: center
+}
+
+#quartaSessao p {
+    margin: 5px;
+    text-align: center;
+}
+
+#quintaSessao h3 {
+    text-align: center;
+}
+
+#quintaSessao p {
+    text-align: center;
+}
+
+#quintaSessao button {
+    border-radius: 5px;
+    margin: 10px;
+    gap: 15px;
+    height: 50px;
+}
+
+#quintaSessao li {
+    margin: 15px;
+    list-style-type: none;
+}
+
+#quintaSessaoButtons {
+    flex-direction: column;
+    display: flex;
+    margin: 15px;
+}
+
+#quintaSessaoButtons1 {
+    border: 20px;
+    background-color: #540B51;
+}
+
+#quintaSessaoButtons2 {
+    border-color: #540B51;
+}
+
+.quintaSessaoUl span {
+    font-size: 40px;
+}
+
+.quintaSessaoUl p {
+    text-align: center;
+}
+
+#sextaSessao {
+    background-color: #540B51;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#sextaSessao h3 {
+    text-align: center;
+    font-size: 30px;
+}
+#sextaSessaoBtn1{
+    height: 50px;
+    background-color: #540B51;
+    margin: 10px;
+}
+#sextaSessaoBtn2{
+    height: 50px;
+    border-color: #540B51;
+    border: 20px;
+    margin: 10px;
+}
+#container {
+    display: flex;
+    width: 100%;
+}
+#container ul{
+    margin: 10px;
+    list-style-type: none;
+}
+#container li{
+    margin-bottom: 10px;
+}
+#lastFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 10px;
+}
+
+@media screen and (width < 768px) {
+    #cabecalho img {
+        width: 100%;
+    }
+    
+
+    #introducao h1 {
+        font-size: 40px;
+    }
+
+    #introducao p {
+        font-size: 19px;
+    }
+
+    #introducaoButtons #introducaoButtons1 {
+        width: 90%;
+        height: 60px;
+        margin: 10px;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+
+    #introducaoButtons #introducaoButtons2 {
+        width: 90%;
+        height: 60px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #4285F4;
+        font-size: 25px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #introducaoButtons #introducaoButtons2 img {
+        align-items: center;
+        width: 40px;
+        justify-content: space-around;
+        background-color: white;
+    }
+
+    #primeiraSessao p {
+        font-size: 15px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    #imgSessao1 {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #imgSessao1 img {
+        height: 35px;
+    }
+
+    .imgSessao1 {
+        margin: 10px;
+    }
+    footer img{
+        height: 70px;
+        width: 70px;
+        margin: 15px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 background purple: #540B51
 background ivory: #F3EAE2
